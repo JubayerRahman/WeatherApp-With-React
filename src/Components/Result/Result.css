@@ -1,0 +1,9 @@
+.status{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.Iconw{
+    width: 10%;
+}

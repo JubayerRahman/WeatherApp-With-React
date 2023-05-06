@@ -1,0 +1,25 @@
+.devdes{
+    position: absolute;
+    bottom: 0;
+}
+.devdes  h1{
+    font-size: 20px;
+}
+.devdes a{
+    text-decoration: wavy;
+    color: var(--text_color);
+    animation: linkani 4s infinite ease-out;
+}
+@keyframes linkani {
+    from{color: green; text-shadow: 20px 20px 20px greenyellow;}
+    to{color: orange; text-shadow: -10px -10px 20px orangered;}
+}
+
+@media (max-width:768px) {
+    .devdes h1{
+        font-size: 14px;
+    }
+    .devdes{
+        bottom: 10vh;
+    }
+}

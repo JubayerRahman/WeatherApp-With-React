@@ -1,0 +1,25 @@
+.themeButton{
+    background-color: var(--background);
+    border: none;
+    font-size: 20px;
+    transition: all 0.5s ease-out;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.fa-sun{
+    color: orange;
+    font-size: 40px;
+}
+.fa-moon{
+    color: #282c34;
+    font-size: 40px;
+}
+
+@media (max-width:768px) {
+    .fa-sun, .fa-moon{
+        font-size: 25px;
+    }
+}
