@@ -11,7 +11,8 @@ const Result = (props) => {
       <h3>{props.getTemp} &nbsp;</h3>
       <h3>{props.getDescription}</h3>
       </div>
-      <p>If your city dont come on first try plese click the  button again. API issue </p>
+      <div className='divider'></div>
+      <p className='resultp'>If your city dont come on first try plese click the  button again. API issue </p>
     </div>
   )
 }

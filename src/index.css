@@ -14,12 +14,14 @@ body {
   --maindDarkBg: 	#28282B;
   --text_color: White;
   --ShadowDark: black;
+  --dividerColor: white;
 }
 .darkTheme{
   --background: #282c34;
   --text_color: white;
   --maindDarkBg: 	#28282B;
   --ShadowDark: rgb(73, 73, 73);
+  --dividerColor: white;
   transition: all 0.5s ease-out;
 }
 
@@ -28,5 +30,6 @@ body {
   --text_color: #282c34;
   --maindDarkBg: lightgray;
   --ShadowDark: gray;
+  --dividerColor: #282c34;
   transition: all 0.5s ease-out;
 }
