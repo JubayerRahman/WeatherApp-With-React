@@ -4,7 +4,7 @@ import "./Result.css"
 const Result = (props) => {
     let iconSre = ("https://openweathermap.org/img/wn/"+props.getIcon+".png");
   return (
-    <div>
+    <div className='result'>
       <img className='Iconw' src={iconSre} alt="" />
       <h1>{props.getName}</h1>
       <div className='status'>
