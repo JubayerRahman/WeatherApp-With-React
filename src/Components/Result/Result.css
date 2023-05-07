@@ -13,6 +13,11 @@
 .Iconw{
     width: 5vw;
 }
+@media (max-width:768px) {
+    .Iconw{
+        width: 20vw;
+    }
+}
 .resultp{
     width: 70%;
     padding: 20px;
